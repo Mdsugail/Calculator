@@ -1,0 +1,69 @@
+body{
+  /* background-color:#2C3639 ; */
+  background-image: linear-gradient( #051937, #052139, #102939, #1d3039, #2c3639);
+}
+.calculator {
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin-block-start: 2em;
+  max-inline-size: 22rem;
+  overflow: hidden;
+}
+#result {
+  /* background: hsl(255, 100%, 100%); */
+  background-color: #DCD7C9;
+  font-size: 2.2rem;
+  padding-block-start: 1rem;
+  padding-block-end: 0.5rem;
+  padding-inline-end: 1rem;
+  border-radius: 10px solid grey;
+  border-style: none;
+  
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  /* background: hsl(255, 100%, 100%); */
+  padding: 0.5rem;
+  background-color: #3F4E4F;
+
+}
+button {
+  /* background: hsl(211, 47%, 49%); */
+  background-color: #A27B5C;
+  border: none;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+  font-size: 2rem;
+  /* Playful Styles */
+  inline-size: 70px;
+  block-size: 70px;
+  margin: 0.25rem;
+  border-radius: 20px;
+}
+button:active,
+button:focus {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+  outline: none;
+}
+.equal{
+  background-color: #ED7D31;
+  animation: hu__hu__ infinite 5s ease-in-out }
+  @keyframes hu__hu__ {
+      50% { transform: translateX(10px) }
+}
+.c{
+  background-color: #706233;}
+.c { animation: hu__hu__ infinite 5s ease-in-out }
+  @keyframes hu__hu__ {
+      50% { transform: translateX(10px) }
+  }
+  p{
+    margin-bottom: 70px;
+    padding: 60px;
+  }
