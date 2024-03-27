@@ -15,7 +15,7 @@ This is a simple calculator project developed using HTML, CSS, and JavaScript.
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your_username/calculator.git
+    git clone  https://mdsugail.github.io/Calculator/
     ```
 
 2. Open the `index.html` file in your web browser or set up a local server to run the project.
@@ -29,7 +29,7 @@ This is a simple calculator project developed using HTML, CSS, and JavaScript.
 
 ## Example
 
-[View Demo](https://your_username.github.io/calculator)
+[View Demo]( https://mdsugail.github.io/Calculator/)
 
 ## Contribution
 
@@ -38,3 +38,4 @@ Contributions are welcome! If you find any issues or want to contribute to the p
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+#calculator    #javascript #css
